@@ -32,5 +32,5 @@ public class EmployeeTest {
         employee.setName("Betty");
         assertEquals("Betty", employee.getName());
     }
-    
+
 }
