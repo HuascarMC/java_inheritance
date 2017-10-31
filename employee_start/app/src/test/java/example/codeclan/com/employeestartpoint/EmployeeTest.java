@@ -41,4 +41,9 @@ public class EmployeeTest {
         assertEquals(35000.00, employee.getSalary(), 0.01);
     }
 
+    @Test
+    public void getDpt() {
+        assertEquals("maintenance", manager.getDptName());
+    }
+
 }

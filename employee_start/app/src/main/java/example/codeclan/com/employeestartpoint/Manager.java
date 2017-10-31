@@ -11,4 +11,8 @@ public class Manager extends Employee {
         super(id, name, socialSecurityNumber, salary);
         this.dptName = dptName;
     }
+
+    public String getDptName() {
+        return dptName;
+    }
 }
