@@ -5,10 +5,10 @@ package example.codeclan.com.employeestartpoint;
  */
 
 public class Employee {
-    private int id;
-    private String name;
-    private String socialSecurityNumber;
-    private double salary;
+    public int id;
+    public String name;
+    public String socialSecurityNumber;
+    public double salary;
 
     public Employee(int id, String name, String socialSecurityNumber, double salary) {
         this.id = id;

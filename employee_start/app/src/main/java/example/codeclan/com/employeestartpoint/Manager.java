@@ -10,7 +10,7 @@ public class Manager extends Employee {
     public Manager(int id, String name, String socialSecurityNumber, double salary, String dptName) {
         this.id = id;
         this.name = name;
-        this.getSocialSecurityNumber = socialSecurityNumber;
+        this.socialSecurityNumber = socialSecurityNumber;
         this.salary = salary;
         this.dptName = dptName;
     }
