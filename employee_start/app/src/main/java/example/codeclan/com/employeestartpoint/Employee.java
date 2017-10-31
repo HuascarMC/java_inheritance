@@ -38,5 +38,6 @@ public class Employee {
         return socialSecurityNumber;
     }
 
-    }
+
+    public void raiseSalary(double raise) { this.salary += raise; }
 }
