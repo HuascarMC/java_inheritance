@@ -6,4 +6,12 @@ package example.codeclan.com.employeestartpoint;
 
 public class Manager extends Employee {
     private String dptName;
+
+    public Manager(int id, String name, String socialSecurityNumber, double salary, String dptName) {
+        this.id = id;
+        this.name = name;
+        this.getSocialSecurityNumber = socialSecurityNumber;
+        this.salary = salary;
+        this.dptName = dptName;
+    }
 }
