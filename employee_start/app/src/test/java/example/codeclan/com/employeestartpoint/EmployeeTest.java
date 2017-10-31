@@ -7,6 +7,9 @@ import static org.junit.Assert.*;
 public class EmployeeTest {
     Employee employee;
     Manager manager;
+    Engineer engineer;
+    Admin admin;
+    Director director;
 
     @Before
     public void before() {
