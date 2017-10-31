@@ -21,9 +21,6 @@ public class Employee {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
@@ -37,15 +34,9 @@ public class Employee {
         return salary;
     }
 
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-
     public String getSocialSecurityNumber() {
         return socialSecurityNumber;
     }
-
-    public void setSocialSecurityNumber(String socialSecurityNumber) {
-        this.socialSecurityNumber = socialSecurityNumber;
+    
     }
 }
