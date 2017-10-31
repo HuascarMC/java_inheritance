@@ -37,6 +37,6 @@ public class Employee {
     public String getSocialSecurityNumber() {
         return socialSecurityNumber;
     }
-    
+
     }
 }
